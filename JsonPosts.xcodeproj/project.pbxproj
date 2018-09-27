@@ -14,6 +14,8 @@
 		176308C22149216000C38EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176308C02149216000C38EA5 /* LaunchScreen.storyboard */; };
 		176308CD2149216100C38EA5 /* JsonPostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176308CC2149216100C38EA5 /* JsonPostsTests.swift */; };
 		176308D82149216100C38EA5 /* JsonPostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176308D72149216100C38EA5 /* JsonPostsUITests.swift */; };
+		176308E62149221A00C38EA5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176308E52149221A00C38EA5 /* DataModel.swift */; };
+		176308E8214936C500C38EA5 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176308E7214936C500C38EA5 /* DataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		176308D32149216100C38EA5 /* JsonPostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonPostsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		176308D72149216100C38EA5 /* JsonPostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPostsUITests.swift; sourceTree = "<group>"; };
 		176308D92149216100C38EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176308E52149221A00C38EA5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		176308E7214936C500C38EA5 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				176308B72149215F00C38EA5 /* AppDelegate.swift */,
 				176308B92149215F00C38EA5 /* ViewController.swift */,
+				176308E52149221A00C38EA5 /* DataModel.swift */,
+				176308E7214936C500C38EA5 /* DataCell.swift */,
 				176308BB2149215F00C38EA5 /* Main.storyboard */,
 				176308BE2149216000C38EA5 /* Assets.xcassets */,
 				176308C02149216000C38EA5 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				176308BA2149215F00C38EA5 /* ViewController.swift in Sources */,
 				176308B82149215F00C38EA5 /* AppDelegate.swift in Sources */,
+				176308E62149221A00C38EA5 /* DataModel.swift in Sources */,
+				176308E8214936C500C38EA5 /* DataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
